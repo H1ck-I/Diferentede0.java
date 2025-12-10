@@ -1,18 +1,57 @@
-## Getting Started
+📘 Programa de Verificação de Resto da Divisão (Java)
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este repositório contém um programa simples em Java que realiza operações de módulo (%), permitindo ao usuário testar múltiplas divisões até que o resultado seja diferente de zero.
 
-## Folder Structure
+O código demonstra o uso de:
 
-The workspace contains two folders by default, where:
+Entrada de dados com Scanner;
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Laço while;
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Uso dos comandos continue e break;
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Operador de módulo %.
 
-## Dependency Management
+🚀 Funcionalidade
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+O programa funciona da seguinte forma:
+
+O usuário informa um número inicial.
+
+Em um loop contínuo, o usuário fornece números para realizar a operação:
+
+divisao % numeroInicial
+
+
+O programa só aceita números maiores ou iguais ao número inicial.
+
+O resultado da operação é exibido.
+
+Se o resto da divisão for diferente de zero, o programa informa e encerra.
+
+📝 Exemplo de Execução
+Informe um número inicial: 5
+
+Informe um número para divisão: 10
+10 % 5 = 0
+
+Informe um número para divisão: 17
+17 % 5 = 2 resultado diferente de zero.
+
+🧠 Lógica do Código
+
+Validação: impede que o usuário informe números menores que o inicial.
+
+Operador %: calcula o resto da divisão.
+
+continue: força o usuário a repetir a entrada caso o número seja inválido.
+
+break: encerra o loop quando o resto não é zero.
+
+🛠️ Tecnologias Utilizadas
+
+Java 17+
+
+Classe Scanner
+
+Estruturas de controle (while, if, continue, break)
